@@ -28,6 +28,10 @@ export async function generateMetadata(): Promise<Metadata> {
             siteName: "kmovie",
             alternateLocale: "https://kmovie.me/",
         },
+        robots: {
+            index: false,
+            follow: false,
+          },
     };
 }
 export default function RootLayout({
